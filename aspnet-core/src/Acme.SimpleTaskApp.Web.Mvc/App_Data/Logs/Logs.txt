@@ -1,0 +1,520 @@
+DEBUG 2022-08-19 11:11:42,493 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-08-19 11:11:42,637 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2022-08-19 11:11:42,651 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.Web.Startup.SimpleTaskAppWebMvcModule, Acme.SimpleTaskApp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-08-19 11:11:42,652 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppWebCoreModule, Acme.SimpleTaskApp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-08-19 11:11:42,652 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppApplicationModule, Acme.SimpleTaskApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-08-19 11:11:42,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppCoreModule, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-08-19 11:11:42,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-08-19 11:11:42,654 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-08-19 11:11:42,654 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-08-19 11:11:42,654 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-08-19 11:11:42,654 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.EntityFrameworkCore.SimpleTaskAppEntityFrameworkModule, Acme.SimpleTaskApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-08-19 11:11:42,655 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-08-19 11:11:42,655 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-08-19 11:11:42,655 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-08-19 11:11:42,655 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-08-19 11:11:42,655 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-08-19 11:11:42,656 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-08-19 11:11:42,657 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2022-08-19 11:11:42,773 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-08-19 11:11:42,773 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-08-19 11:11:42,773 [1    ] o.Configuration.LanguageManagementConfig - Converted SimpleTaskApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-08-19 11:11:42,773 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-08-19 11:11:43,380 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Acme.SimpleTaskApp.EntityFrameworkCore.SimpleTaskAppDbContext, Acme.SimpleTaskApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-08-19 11:11:44,696 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2022-08-19 11:11:44,880 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-08-19 11:11:44,891 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2022-08-19 11:11:44,897 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskApp
+DEBUG 2022-08-19 11:11:44,902 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-08-19 11:11:45,101 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-08-19 11:11:45,279 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Acme.SimpleTaskApp.MultiTenancy.Tenant, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Acme.SimpleTaskApp.Authorization.Users.User, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2022-08-19 11:11:45,469 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2022-08-19 11:11:45,469 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2022-08-19 11:11:45,476 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Users.Dto.CreateUserDto
+DEBUG 2022-08-19 11:11:45,476 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Users.Dto.UserDto
+DEBUG 2022-08-19 11:11:45,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2022-08-19 11:11:45,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2022-08-19 11:11:45,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Roles.Dto.PermissionDto
+DEBUG 2022-08-19 11:11:45,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2022-08-19 11:11:45,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.MultiTenancy.Dto.TenantDto
+DEBUG 2022-08-19 11:11:45,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2022-08-19 11:11:45,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Web.Models.Roles.EditRoleModalViewModel
+INFO  2022-08-19 11:11:47,458 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+INFO  2022-08-19 11:11:48,624 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2022-08-19 11:11:48,734 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2022-08-19 11:11:48,812 [20   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2022-08-19 11:11:49,013 [20   ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2022-08-19 11:11:49,018 [20   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2022-08-19 11:11:49,041 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2022-08-19 11:11:49,044 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 311.162ms 302 
+INFO  2022-08-19 11:11:49,048 [12   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2022-08-19 11:11:49,051 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Controllers.AccountController.Login (Acme.SimpleTaskApp.Web.Mvc)'
+INFO  2022-08-19 11:11:52,435 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller Acme.SimpleTaskApp.Web.Controllers.AccountController (Acme.SimpleTaskApp.Web.Mvc).
+INFO  2022-08-19 11:11:55,943 [20   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2022-08-19 11:11:56,762 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 856.645ms.
+INFO  2022-08-19 11:11:56,766 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Controllers.AccountController.Login (Acme.SimpleTaskApp.Web.Mvc) in 4329.132ms
+INFO  2022-08-19 11:11:56,769 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Controllers.AccountController.Login (Acme.SimpleTaskApp.Web.Mvc)'
+INFO  2022-08-19 11:11:56,810 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/css/all.min.css?v=-N4_V_SbAFiW1MPBCXnfnP9QSN3-Keu-NlB-0ev_YKQ  
+INFO  2022-08-19 11:11:56,812 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/icheck-bootstrap/icheck-bootstrap.css?v=nGN1DgpDTrAS3DS7E5J0cL-gblWBKAMSoU_LSuY8gu8  
+INFO  2022-08-19 11:11:56,814 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css?v=tDEOZyJ9BuKWB-BOSc6dE4cI0uNznodJMx11eWZ7jJ4  
+INFO  2022-08-19 11:11:56,816 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.css?v=He3QEBKoL_nMXlVsoM7S2C2kjFQqS5L-mgA-F8LpG-U  
+INFO  2022-08-19 11:11:56,819 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7780.0752ms 200 text/html; charset=utf-8
+INFO  2022-08-19 11:11:56,825 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css?v=D9O-28vCF-qJh2qZSFIXxXc30hTED8RmnKeZRyvVEpA  
+INFO  2022-08-19 11:11:56,828 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=pk1udUQR7bqKUWFxSnrnIl0MM8MH2Wu05p-zpysBQWI  
+INFO  2022-08-19 11:11:56,838 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/_Layout.css'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\view-resources\Views\Account\_Layout.css'
+INFO  2022-08-19 11:11:56,840 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.css'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\toastr\toastr.css'
+INFO  2022-08-19 11:11:56,843 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.8708ms 200 text/css
+INFO  2022-08-19 11:11:56,845 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 28.9381ms 200 text/css
+INFO  2022-08-19 11:11:56,847 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/icheck-bootstrap/icheck-bootstrap.css'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\icheck-bootstrap\icheck-bootstrap.css'
+INFO  2022-08-19 11:11:56,850 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.7689ms 200 text/css
+INFO  2022-08-19 11:11:56,865 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js?v=WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU  
+INFO  2022-08-19 11:11:56,875 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js?v=pVreZ67fRaATygHF6T-gQtF1NI700W9kzeAivu6au9U  
+INFO  2022-08-19 11:11:56,880 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=xKbbeRspeJ53pjKRA3Bh5ZJLItu8Y58wlf6cER1IiIk  
+INFO  2022-08-19 11:11:56,893 [30   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\css\style.css'
+INFO  2022-08-19 11:11:56,896 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.2535ms 200 text/css
+INFO  2022-08-19 11:11:56,903 [33   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs-ext\famfamfam-flags\dist\sprite\famfamfam-flags.min.css'
+INFO  2022-08-19 11:11:56,905 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js?v=qXsDMEfG3xYx1TO9SCGpLfvQPdpKIo0nXVYYfcneIRk  
+INFO  2022-08-19 11:11:56,908 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery/jquery.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\jquery\jquery.js'
+INFO  2022-08-19 11:11:56,910 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/css/all.min.css'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\font-awesome\css\all.min.css'
+INFO  2022-08-19 11:11:56,912 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 47.9596ms 200 application/javascript
+INFO  2022-08-19 11:11:56,914 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 102.4513ms 200 text/css
+INFO  2022-08-19 11:11:56,916 [32   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\bootstrap\dist\js\bootstrap.bundle.js'
+INFO  2022-08-19 11:11:56,919 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 81.7557ms 200 text/css
+INFO  2022-08-19 11:11:56,921 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 53.5608ms 200 application/javascript
+INFO  2022-08-19 11:11:56,924 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2022-08-19 11:11:56,927 [30   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/css/adminlte.min.css'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\admin-lte\dist\css\adminlte.min.css'
+INFO  2022-08-19 11:11:56,929 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2022-08-19 11:11:56,931 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/spin/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2022-08-19 11:11:56,935 [33   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/js/adminlte.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\admin-lte\dist\js\adminlte.js'
+INFO  2022-08-19 11:11:56,937 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js?v=KsRuvuRtUVvobe66OFtOQfjP8WA2SzYsmm4VPfMnxms  
+INFO  2022-08-19 11:11:56,939 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 115.4474ms 200 text/css
+INFO  2022-08-19 11:11:56,941 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/spin/spin.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\spin\spin.js'
+INFO  2022-08-19 11:11:56,943 [32   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/spin/jquery.spin.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs-ext\spin\jquery.spin.js'
+INFO  2022-08-19 11:11:56,945 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.6098ms 200 application/javascript
+INFO  2022-08-19 11:11:56,947 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.893ms 200 application/javascript
+INFO  2022-08-19 11:11:56,949 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 42.9179ms 200 application/javascript
+INFO  2022-08-19 11:11:56,952 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/block-ui/jquery.blockUI.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\block-ui\jquery.blockUI.js'
+INFO  2022-08-19 11:11:56,954 [32   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/sweetalert/sweetalert.min.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\sweetalert\sweetalert.min.js'
+INFO  2022-08-19 11:11:56,956 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33.1006ms 200 application/javascript
+INFO  2022-08-19 11:11:56,958 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js?v=3lLIPNQoGBxv9DWxtKwnvHr7Wlov-D0jo-NtjAdTenA  
+INFO  2022-08-19 11:11:56,960 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js?v=yNbKY1y6h2rbVcQtf0b8lq4a-xpktyFc3pSYoGAY1qQ  
+INFO  2022-08-19 11:11:56,962 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js?v=dgFbqbQVzjkZPQxWd8PBtzGiRBhChc4I2wO_q_s-Xeo  
+INFO  2022-08-19 11:11:56,964 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=i3fsIGh0z3DXDbSa7f6TwsWonuZ8-OwELSrtH1jHbDA  
+INFO  2022-08-19 11:11:56,967 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.9833ms 200 application/javascript
+INFO  2022-08-19 11:11:56,969 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=MEOC0fqxBbFCeeJ6VHFuw8-2C710gCRqjbvYcHoBdHU  
+INFO  2022-08-19 11:11:56,971 [33   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.min.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\toastr\toastr.min.js'
+INFO  2022-08-19 11:11:56,973 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=vMuHbqHh635SKL2RG2qsGGCDyHg1yFeGqhPKpS34g4k  
+INFO  2022-08-19 11:11:56,975 [32   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2022-08-19 11:11:56,978 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.0849ms 200 application/javascript
+INFO  2022-08-19 11:11:56,980 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2022-08-19 11:11:56,983 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2022-08-19 11:11:56,986 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.4733ms 200 application/javascript
+INFO  2022-08-19 11:11:56,988 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2022-08-19 11:11:56,990 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=djoKib6ssm5DDzbXLe5pD7ayfFg3siaoEk-BFYzQlvI  
+INFO  2022-08-19 11:11:56,992 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 17.415ms 200 application/javascript
+INFO  2022-08-19 11:11:56,994 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.7931ms 200 application/javascript
+INFO  2022-08-19 11:11:56,996 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.4818ms 200 application/javascript
+INFO  2022-08-19 11:11:56,998 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=Ta7OYgm62iNXMvVrH3f4y3WqUbGsHGBNvt0Zu0eIKtk  
+INFO  2022-08-19 11:11:57,000 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js?v=xLhce0FUawd11QSwrvXSwST0oHhOolNoH9cUXAcsIAg  
+INFO  2022-08-19 11:11:57,003 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js?v=XNNC8ESw29iopRLukVRazlP44TxnjGmEQanHJ5kHmtk  
+INFO  2022-08-19 11:11:57,005 [33   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/moment/moment-with-locales.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\moment\moment-with-locales.js'
+INFO  2022-08-19 11:11:57,007 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2022-08-19 11:11:57,009 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2022-08-19 11:11:57,011 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=-_6dIiTp8yWOdMdFxs9uCgDCTbJRUSKhU31T_zJDEqM  
+INFO  2022-08-19 11:11:57,014 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.293ms 200 application/javascript
+INFO  2022-08-19 11:11:57,016 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.0574ms 200 application/javascript
+INFO  2022-08-19 11:11:57,018 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 53.7239ms 200 application/javascript
+INFO  2022-08-19 11:11:57,020 [30   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/jquery.validate.unobtrusive.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\jquery-validate\jquery.validate.unobtrusive.js'
+INFO  2022-08-19 11:11:57,023 [33   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/jquery.validate.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\jquery-validate\jquery.validate.js'
+INFO  2022-08-19 11:11:57,025 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637965043052800581  
+INFO  2022-08-19 11:11:57,028 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637965043052800581  
+INFO  2022-08-19 11:11:57,030 [32   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\js\main.js'
+INFO  2022-08-19 11:11:57,032 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.3129ms 200 application/javascript
+INFO  2022-08-19 11:11:57,034 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.1114ms 200 application/javascript
+INFO  2022-08-19 11:11:57,036 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.482ms 200 application/javascript
+INFO  2022-08-19 11:11:57,039 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=KxhHl3HYb-UQucT7TN2ewhzzgV_WwxRaGwGaSiT8xzM  
+INFO  2022-08-19 11:11:57,042 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637965043166227684  
+INFO  2022-08-19 11:11:57,044 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/_framework/aspnetcore-browser-refresh.js  
+INFO  2022-08-19 11:11:57,047 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2022-08-19 11:11:57,050 [33   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+INFO  2022-08-19 11:11:57,053 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.0312ms 200 application/javascript
+INFO  2022-08-19 11:11:57,056 [14   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2022-08-19 11:11:57,058 [9    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2022-08-19 11:11:57,061 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/webfonts/fa-solid-900.woff2  
+INFO  2022-08-19 11:11:57,064 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2022-08-19 11:11:57,066 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22.8578ms 200 application/javascript; charset=utf-8
+INFO  2022-08-19 11:11:57,069 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2022-08-19 11:11:57,071 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2022-08-19 11:11:57,074 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.719ms 200 application/javascript
+INFO  2022-08-19 11:11:57,079 [30   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/webfonts/fa-solid-900.woff2'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\font-awesome\webfonts\fa-solid-900.woff2'
+INFO  2022-08-19 11:11:57,081 [33   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs-ext\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2022-08-19 11:11:57,084 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.6463ms 200 font/woff2
+INFO  2022-08-19 11:11:57,087 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 38.9211ms 200 image/png
+INFO  2022-08-19 11:11:57,112 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2022-08-19 11:11:57,118 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2022-08-19 11:11:57,205 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2022-08-19 11:11:57,207 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 87.0396ms
+INFO  2022-08-19 11:11:57,209 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2022-08-19 11:11:57,212 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 188.577ms 200 application/x-javascript
+INFO  2022-08-19 11:11:57,217 [14   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2022-08-19 11:11:57,220 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 105.8544ms
+INFO  2022-08-19 11:11:57,222 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2022-08-19 11:11:57,224 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 199.2724ms 200 application/x-javascript; charset=utf-8
+INFO  2022-08-19 11:11:57,258 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2022-08-19 11:11:57,265 [30   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2022-08-19 11:11:57,267 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.8152ms 200 image/x-icon
+INFO  2022-08-19 11:12:03,039 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 255
+INFO  2022-08-19 11:12:03,045 [32   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2022-08-19 11:12:03,047 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Controllers.AccountController.Login (Acme.SimpleTaskApp.Web.Mvc)'
+INFO  2022-08-19 11:12:03,058 [32   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(Acme.SimpleTaskApp.Web.Models.Account.LoginViewModel, System.String, System.String) on controller Acme.SimpleTaskApp.Web.Controllers.AccountController (Acme.SimpleTaskApp.Web.Mvc).
+WARN  2022-08-19 11:12:03,281 [30   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2022-08-19 11:12:04,011 [30   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at Acme.SimpleTaskApp.Web.Controllers.AccountController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\Controllers\AccountController.cs:line 127
+   at Acme.SimpleTaskApp.Web.Controllers.AccountController.Login(LoginViewModel loginModel, String returnUrl, String returnUrlHash) in F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\Controllers\AccountController.cs:line 104
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2022-08-19 11:12:04,020 [30   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-08-19 11:12:04,040 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Controllers.AccountController.Login (Acme.SimpleTaskApp.Web.Mvc) in 978.5875ms
+INFO  2022-08-19 11:12:04,042 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Controllers.AccountController.Login (Acme.SimpleTaskApp.Web.Mvc)'
+INFO  2022-08-19 11:12:04,044 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1005.1273ms 500 application/json; charset=utf-8
+INFO  2022-08-19 11:12:14,807 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2022-08-19 11:12:14,811 [30   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2022-08-19 11:12:14,813 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Controllers.AccountController.Login (Acme.SimpleTaskApp.Web.Mvc)'
+INFO  2022-08-19 11:12:14,820 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(Acme.SimpleTaskApp.Web.Models.Account.LoginViewModel, System.String, System.String) on controller Acme.SimpleTaskApp.Web.Controllers.AccountController (Acme.SimpleTaskApp.Web.Mvc).
+INFO  2022-08-19 11:12:15,050 [32   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2022-08-19 11:12:15,072 [33   ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-08-19 11:12:15,076 [33   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Controllers.AccountController.Login (Acme.SimpleTaskApp.Web.Mvc) in 253.4342ms
+INFO  2022-08-19 11:12:15,078 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Controllers.AccountController.Login (Acme.SimpleTaskApp.Web.Mvc)'
+INFO  2022-08-19 11:12:15,080 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 272.5399ms 200 application/json; charset=utf-8
+INFO  2022-08-19 11:12:15,095 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2022-08-19 11:12:15,136 [33   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2022-08-19 11:12:15,138 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Mvc)'
+INFO  2022-08-19 11:12:15,143 [33   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller Acme.SimpleTaskApp.Web.Controllers.HomeController (Acme.SimpleTaskApp.Web.Mvc).
+INFO  2022-08-19 11:12:15,179 [20   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2022-08-19 11:12:15,601 [33   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 435.249ms.
+INFO  2022-08-19 11:12:15,604 [33   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Mvc) in 459.0297ms
+INFO  2022-08-19 11:12:15,606 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Mvc)'
+INFO  2022-08-19 11:12:15,610 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 515.8195ms 200 text/html; charset=utf-8
+INFO  2022-08-19 11:12:15,623 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/responsive.bootstrap4.min.css?v=QrpUliTHPwNNlphA-wNV-zRWVltgDT6Eg0cXVAB04hI  
+INFO  2022-08-19 11:12:15,626 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/dataTables.bootstrap4.min.css?v=F-DaKAClQut87heMIC6oThARMuWne8-WzxIDT7jXuPA  
+INFO  2022-08-19 11:12:15,629 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.css?v=pk1udUQR7bqKUWFxSnrnIl0MM8MH2Wu05p-zpysBQWI  
+INFO  2022-08-19 11:12:15,631 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/buttons.bootstrap4.min.css?v=1O-iXoRdSUgNTj7NzmW-C3dpRaxiGn1afSX-qfRCV4Q  
+INFO  2022-08-19 11:12:15,634 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/jquery.dataTables.min.js?v=LXQzPhL1IRyKkA7HpCOBi8I-OC8HqzHUYkjK8S-LKTs  
+INFO  2022-08-19 11:12:15,637 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.bootstrap4.min.js?v=hJ44ymhBmRPJKIaKRf3DSX5uiFEZ9xB_qx8cNbJvIMU  
+INFO  2022-08-19 11:12:15,640 [32   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/dataTables.bootstrap4.min.css'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\datatables\css\dataTables.bootstrap4.min.css'
+INFO  2022-08-19 11:12:15,643 [33   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/buttons.bootstrap4.min.css'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\datatables\css\buttons.bootstrap4.min.css'
+INFO  2022-08-19 11:12:15,647 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 20.5957ms 200 text/css
+INFO  2022-08-19 11:12:15,649 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.css'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.css'
+INFO  2022-08-19 11:12:15,652 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.bootstrap4.min.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\datatables\js\dataTables.bootstrap4.min.js'
+INFO  2022-08-19 11:12:15,654 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.1244ms 200 text/css
+INFO  2022-08-19 11:12:15,657 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.3321ms 200 application/javascript
+INFO  2022-08-19 11:12:15,660 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 20.216ms 200 text/css
+INFO  2022-08-19 11:12:15,663 [30   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/responsive.bootstrap4.min.css'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\datatables\css\responsive.bootstrap4.min.css'
+INFO  2022-08-19 11:12:15,666 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 42.2775ms 200 text/css
+INFO  2022-08-19 11:12:15,668 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.responsive.min.js?v=7Tbik5KSODuGiOLIOFfhP47p5UK6h1wzw8CFSI_TKhc  
+INFO  2022-08-19 11:12:15,672 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/responsive.bootstrap4.min.js?v=aXVO47Rb7s58FhMTCwbM39en_1XcmzGkClRzBe5txKs  
+INFO  2022-08-19 11:12:15,675 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.buttons.js?v=5QXxQoJP_O_KTBOFw8kshfIczGGlmZRcR_WjhFKbiZY  
+INFO  2022-08-19 11:12:15,678 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/buttons.bootstrap4.js?v=7tPJL63hI4QnZbV489_5KEpe7k6W5RzPTZkP8m6kzEE  
+INFO  2022-08-19 11:12:15,680 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/signalr/dist/browser/signalr.js?v=s5ortbhB2C3h17nHMtXwbCSN9YncRIZH6XrFTSO9vmk  
+INFO  2022-08-19 11:12:15,684 [32   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/jquery.dataTables.min.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\datatables\js\jquery.dataTables.min.js'
+INFO  2022-08-19 11:12:15,687 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.responsive.min.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\datatables\js\dataTables.responsive.min.js'
+INFO  2022-08-19 11:12:15,690 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/responsive.bootstrap4.min.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\datatables\js\responsive.bootstrap4.min.js'
+INFO  2022-08-19 11:12:15,692 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.991ms 200 application/javascript
+INFO  2022-08-19 11:12:15,695 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22.2477ms 200 application/javascript
+INFO  2022-08-19 11:12:15,697 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/buttons.bootstrap4.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\datatables\js\buttons.bootstrap4.js'
+INFO  2022-08-19 11:12:15,700 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 55.9746ms 200 application/javascript
+INFO  2022-08-19 11:12:15,703 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.1652ms 200 application/javascript
+INFO  2022-08-19 11:12:15,705 [33   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.buttons.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\datatables\js\dataTables.buttons.js'
+INFO  2022-08-19 11:12:15,709 [30   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/signalr/dist/browser/signalr.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\signalr\dist\browser\signalr.js'
+INFO  2022-08-19 11:12:15,711 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=7OzpM5utNWYP8ne_218zbUCD3Xj_R1GqM6AzwpgQktg  
+INFO  2022-08-19 11:12:15,713 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/abp.dataTable.js?v=FG485Qb8F3MCC6S85_bX77E6NnEA2NX-qXejZYDm6PI  
+INFO  2022-08-19 11:12:15,716 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/push.js/push.js?v=p73-snCYhrDo9U6USD9P19LnY1EwAe4-VzQxj_kNyBE  
+INFO  2022-08-19 11:12:15,718 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 45.7262ms 200 application/javascript
+INFO  2022-08-19 11:12:15,721 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637965043052800581  
+INFO  2022-08-19 11:12:15,724 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.1902ms 200 application/javascript
+INFO  2022-08-19 11:12:15,727 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.signalr-client.js'
+INFO  2022-08-19 11:12:15,730 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/img/avatar5.png  
+INFO  2022-08-19 11:12:15,733 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.9432ms 200 application/javascript
+INFO  2022-08-19 11:12:15,736 [32   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/abp.dataTable.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\js\abp.dataTable.js'
+INFO  2022-08-19 11:12:15,739 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/logo.png  
+INFO  2022-08-19 11:12:15,743 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/push.js/push.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\push.js\push.js'
+INFO  2022-08-19 11:12:15,746 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.9827ms 200 application/javascript
+INFO  2022-08-19 11:12:15,748 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/img/avatar5.png'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\admin-lte\dist\img\avatar5.png'
+INFO  2022-08-19 11:12:15,751 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637965043052800581  
+INFO  2022-08-19 11:12:15,754 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.3336ms 200 image/png
+INFO  2022-08-19 11:12:15,756 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.1598ms 200 application/javascript
+INFO  2022-08-19 11:12:15,760 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/logo.png'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\img\logo.png'
+INFO  2022-08-19 11:12:15,763 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Home/Index.js?v=K0D6HsrS69XXLRtWKoTtWGYinGZNmmZF6gpiRobQkK4  
+INFO  2022-08-19 11:12:15,765 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.9399ms 200 image/png
+INFO  2022-08-19 11:12:15,769 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/_framework/aspnetcore-browser-refresh.js  
+INFO  2022-08-19 11:12:15,772 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/chartjs/dist/Chart.js?v=nZaxPHA2uAaquixjSDX19TmIlbRNCOrf5HO1oHl5p70  
+INFO  2022-08-19 11:12:15,776 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.0977ms 200 application/javascript; charset=utf-8
+INFO  2022-08-19 11:12:15,779 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Home/Index.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\view-resources\Views\Home\Index.js'
+INFO  2022-08-19 11:12:15,783 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.9315ms 200 application/javascript
+INFO  2022-08-19 11:12:15,785 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2022-08-19 11:12:15,789 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:15,792 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/chartjs/dist/Chart.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\chartjs\dist\Chart.js'
+INFO  2022-08-19 11:12:15,794 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2022-08-19 11:12:15,796 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.5938ms 200 application/javascript
+INFO  2022-08-19 11:12:15,799 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:15,802 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2022-08-19 11:12:15,806 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2022-08-19 11:12:15,808 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2022-08-19 11:12:15,811 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 4.9979ms
+INFO  2022-08-19 11:12:15,813 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:15,816 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 96.4597ms 200 application/x-javascript
+INFO  2022-08-19 11:12:15,833 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2022-08-19 11:12:15,835 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 53.6832ms 200 application/json
+INFO  2022-08-19 11:12:15,838 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=FTd7h4XB5rrKGxYv16wvFA  
+INFO  2022-08-19 11:12:15,845 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2022-08-19 11:12:15,873 [33   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2022-08-19 11:12:15,876 [33   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 78.0582ms
+INFO  2022-08-19 11:12:15,878 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:15,880 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 133.5409ms 200 application/x-javascript; charset=utf-8
+DEBUG 2022-08-19 11:12:15,904 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"FTd7h4XB5rrKGxYv16wvFA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2022-08-19T11:12:15.8996022+07:00","Properties":{}}
+DEBUG 2022-08-19 11:12:15,913 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: FTd7h4XB5rrKGxYv16wvFA
+INFO  2022-08-19 11:12:18,107 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Roles  
+INFO  2022-08-19 11:12:18,121 [20   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2022-08-19 11:12:18,124 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Controllers.RolesController.Index (Acme.SimpleTaskApp.Web.Mvc)'
+INFO  2022-08-19 11:12:18,132 [20   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Roles", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller Acme.SimpleTaskApp.Web.Controllers.RolesController (Acme.SimpleTaskApp.Web.Mvc).
+INFO  2022-08-19 11:12:18,394 [30   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2022-08-19 11:12:18,490 [41   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 99.1071ms.
+INFO  2022-08-19 11:12:18,493 [41   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Controllers.RolesController.Index (Acme.SimpleTaskApp.Web.Mvc) in 357.9364ms
+INFO  2022-08-19 11:12:18,495 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Controllers.RolesController.Index (Acme.SimpleTaskApp.Web.Mvc)'
+INFO  2022-08-19 11:12:18,501 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 394.0038ms 200 text/html; charset=utf-8
+INFO  2022-08-19 11:12:18,521 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Roles/Index.js?v=0PqNs1Uw_UhJMAxKCTvrd8QNGnk0KCZGOfncOo9lHuw  
+INFO  2022-08-19 11:12:18,523 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637965043052800581  
+INFO  2022-08-19 11:12:18,526 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/_framework/aspnetcore-browser-refresh.js  
+INFO  2022-08-19 11:12:18,529 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637965043052800581  
+INFO  2022-08-19 11:12:18,533 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.3935ms 200 application/javascript; charset=utf-8
+INFO  2022-08-19 11:12:18,536 [33   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Roles/Index.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\view-resources\Views\Roles\Index.js'
+INFO  2022-08-19 11:12:18,541 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 18.1469ms 200 application/javascript
+INFO  2022-08-19 11:12:18,546 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:18,549 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+DEBUG 2022-08-19 11:12:18,549 [14   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: FTd7h4XB5rrKGxYv16wvFA
+INFO  2022-08-19 11:12:18,552 [32   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2022-08-19 11:12:18,555 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2022-08-19 11:12:18,559 [30   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2022-08-19 11:12:18,562 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 4.3084ms
+INFO  2022-08-19 11:12:18,564 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:18,566 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 45.8935ms 200 application/x-javascript
+INFO  2022-08-19 11:12:18,572 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2022-08-19 11:12:18,575 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2737.059ms 101 
+INFO  2022-08-19 11:12:18,578 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2022-08-19 11:12:18,585 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2022-08-19 11:12:18,588 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2022-08-19 11:12:18,590 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.0077ms 200 application/json
+INFO  2022-08-19 11:12:18,603 [32   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2022-08-19 11:12:18,606 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=E2nmS9SMS1nquQ7jCe8jHA  
+INFO  2022-08-19 11:12:18,609 [32   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 51.1826ms
+INFO  2022-08-19 11:12:18,611 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:18,615 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 93.7514ms 200 application/x-javascript; charset=utf-8
+INFO  2022-08-19 11:12:18,621 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2022-08-19 11:12:18,660 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/Role/GetAll?keyword=&skipCount=0&maxResultCount=10 application/json 
+DEBUG 2022-08-19 11:12:18,663 [33   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"E2nmS9SMS1nquQ7jCe8jHA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2022-08-19T11:12:18.6635693+07:00","Properties":{}}
+DEBUG 2022-08-19 11:12:18,664 [33   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: E2nmS9SMS1nquQ7jCe8jHA
+INFO  2022-08-19 11:12:18,669 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Roles.RoleAppService.GetAllAsync (Acme.SimpleTaskApp.Application)'
+INFO  2022-08-19 11:12:18,676 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Acme.SimpleTaskApp.Roles.Dto.RoleDto]] GetAllAsync(Acme.SimpleTaskApp.Roles.Dto.PagedRoleResultRequestDto) on controller Acme.SimpleTaskApp.Roles.RoleAppService (Acme.SimpleTaskApp.Application).
+INFO  2022-08-19 11:12:18,796 [30   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-08-19 11:12:18,807 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Roles.RoleAppService.GetAllAsync (Acme.SimpleTaskApp.Application) in 129.4142ms
+INFO  2022-08-19 11:12:18,809 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Roles.RoleAppService.GetAllAsync (Acme.SimpleTaskApp.Application)'
+INFO  2022-08-19 11:12:18,812 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 151.6978ms 200 application/json; charset=utf-8
+INFO  2022-08-19 11:12:20,323 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Roles/EditModal?roleId=1 application/json 0
+INFO  2022-08-19 11:12:20,332 [30   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2022-08-19 11:12:20,335 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Controllers.RolesController.EditModal (Acme.SimpleTaskApp.Web.Mvc)'
+INFO  2022-08-19 11:12:20,341 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "EditModal", controller = "Roles", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] EditModal(Int32) on controller Acme.SimpleTaskApp.Web.Controllers.RolesController (Acme.SimpleTaskApp.Web.Mvc).
+INFO  2022-08-19 11:12:20,396 [33   ] c.ViewFeatures.PartialViewResultExecutor - Executing PartialViewResult, running view _EditModal.
+INFO  2022-08-19 11:12:20,425 [33   ] c.ViewFeatures.PartialViewResultExecutor - Executed PartialViewResult - view _EditModal executed in 32.0805ms.
+INFO  2022-08-19 11:12:20,427 [33   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Controllers.RolesController.EditModal (Acme.SimpleTaskApp.Web.Mvc) in 83.6257ms
+INFO  2022-08-19 11:12:20,430 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Controllers.RolesController.EditModal (Acme.SimpleTaskApp.Web.Mvc)'
+INFO  2022-08-19 11:12:20,432 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 109.9301ms 200 text/html; charset=utf-8
+INFO  2022-08-19 11:12:20,438 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Roles/_EditModal.js?v=9IPDm6Gp2rMKk4S8INEJ9Mgj4Gfyh6C1bVy6N4R1gX0  
+INFO  2022-08-19 11:12:20,442 [33   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Roles/_EditModal.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\view-resources\Views\Roles\_EditModal.js'
+INFO  2022-08-19 11:12:20,444 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.6355ms 200 application/javascript
+INFO  2022-08-19 11:12:41,021 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2022-08-19 11:12:41,031 [30   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2022-08-19 11:12:41,032 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Controllers.UsersController.Index (Acme.SimpleTaskApp.Web.Mvc)'
+INFO  2022-08-19 11:12:41,039 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Users", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller Acme.SimpleTaskApp.Web.Controllers.UsersController (Acme.SimpleTaskApp.Web.Mvc).
+INFO  2022-08-19 11:12:41,281 [32   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2022-08-19 11:12:41,371 [42   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 95.6348ms.
+INFO  2022-08-19 11:12:41,373 [42   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Controllers.UsersController.Index (Acme.SimpleTaskApp.Web.Mvc) in 332.5324ms
+INFO  2022-08-19 11:12:41,375 [42   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Controllers.UsersController.Index (Acme.SimpleTaskApp.Web.Mvc)'
+INFO  2022-08-19 11:12:41,379 [48   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 358.6086ms 200 text/html; charset=utf-8
+DEBUG 2022-08-19 11:12:41,386 [19   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: E2nmS9SMS1nquQ7jCe8jHA
+INFO  2022-08-19 11:12:41,389 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2022-08-19 11:12:41,391 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22785.7287ms 101 
+INFO  2022-08-19 11:12:41,396 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637965043052800581  
+INFO  2022-08-19 11:12:41,398 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637965043052800581  
+INFO  2022-08-19 11:12:41,400 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/_framework/aspnetcore-browser-refresh.js  
+INFO  2022-08-19 11:12:41,401 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Users/Index.js?v=lHDKyty_33eIqyH3SBGbHk6LsOOPZ7_cGyU1bbbAMc8  
+INFO  2022-08-19 11:12:41,404 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.8447ms 200 application/javascript; charset=utf-8
+INFO  2022-08-19 11:12:41,406 [32   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Users/Index.js'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\view-resources\Views\Users\Index.js'
+INFO  2022-08-19 11:12:41,409 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.9949ms 200 application/javascript
+INFO  2022-08-19 11:12:41,414 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:41,416 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:41,419 [19   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2022-08-19 11:12:41,420 [33   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2022-08-19 11:12:41,424 [19   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2022-08-19 11:12:41,426 [19   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 5.4845ms
+INFO  2022-08-19 11:12:41,428 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:41,430 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 34.2051ms 200 application/x-javascript
+INFO  2022-08-19 11:12:41,447 [33   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2022-08-19 11:12:41,449 [33   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 27.0515ms
+INFO  2022-08-19 11:12:41,451 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:41,453 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 57.2188ms 200 application/x-javascript; charset=utf-8
+INFO  2022-08-19 11:12:41,456 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2022-08-19 11:12:41,461 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2022-08-19 11:12:41,463 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2022-08-19 11:12:41,465 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.7684ms 200 application/json
+INFO  2022-08-19 11:12:41,485 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/User/GetAll?keyword=&skipCount=0&maxResultCount=10 application/json 
+INFO  2022-08-19 11:12:41,487 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=dkc0tEC8YWdzRDXfUWq-Cg  
+INFO  2022-08-19 11:12:41,492 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2022-08-19 11:12:41,498 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Users.UserAppService.GetAllAsync (Acme.SimpleTaskApp.Application)'
+INFO  2022-08-19 11:12:41,506 [33   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Acme.SimpleTaskApp.Users.Dto.UserDto]] GetAllAsync(Acme.SimpleTaskApp.Users.Dto.PagedUserResultRequestDto) on controller Acme.SimpleTaskApp.Users.UserAppService (Acme.SimpleTaskApp.Application).
+DEBUG 2022-08-19 11:12:41,509 [18   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"dkc0tEC8YWdzRDXfUWq-Cg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2022-08-19T11:12:41.5093394+07:00","Properties":{}}
+DEBUG 2022-08-19 11:12:41,509 [18   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: dkc0tEC8YWdzRDXfUWq-Cg
+INFO  2022-08-19 11:12:41,611 [30   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-08-19 11:12:41,622 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Users.UserAppService.GetAllAsync (Acme.SimpleTaskApp.Application) in 114.1921ms
+INFO  2022-08-19 11:12:41,624 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Users.UserAppService.GetAllAsync (Acme.SimpleTaskApp.Application)'
+INFO  2022-08-19 11:12:41,626 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 141.5995ms 200 application/json; charset=utf-8
+INFO  2022-08-19 11:12:41,632 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/webfonts/fa-regular-400.woff2  
+INFO  2022-08-19 11:12:41,635 [30   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/webfonts/fa-regular-400.woff2'. Physical path: 'F:\CyberTech\5.8.1\aspnet-core\src\Acme.SimpleTaskApp.Web.Mvc\wwwroot\libs\font-awesome\webfonts\fa-regular-400.woff2'
+INFO  2022-08-19 11:12:41,637 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.2917ms 200 font/woff2
+INFO  2022-08-19 11:12:43,379 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2022-08-19 11:12:43,387 [30   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2022-08-19 11:12:43,389 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Controllers.UsersController.Index (Acme.SimpleTaskApp.Web.Mvc)'
+INFO  2022-08-19 11:12:43,392 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Users", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller Acme.SimpleTaskApp.Web.Controllers.UsersController (Acme.SimpleTaskApp.Web.Mvc).
+INFO  2022-08-19 11:12:43,422 [19   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2022-08-19 11:12:43,475 [42   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 53.2794ms.
+INFO  2022-08-19 11:12:43,477 [42   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Controllers.UsersController.Index (Acme.SimpleTaskApp.Web.Mvc) in 83.505ms
+INFO  2022-08-19 11:12:43,479 [42   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Controllers.UsersController.Index (Acme.SimpleTaskApp.Web.Mvc)'
+INFO  2022-08-19 11:12:43,483 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 103.9409ms 200 text/html; charset=utf-8
+DEBUG 2022-08-19 11:12:43,486 [33   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: dkc0tEC8YWdzRDXfUWq-Cg
+INFO  2022-08-19 11:12:43,489 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2022-08-19 11:12:43,491 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2003.6596ms 101 
+INFO  2022-08-19 11:12:43,499 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/_framework/aspnetcore-browser-refresh.js  
+INFO  2022-08-19 11:12:43,501 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637965043052800581  
+INFO  2022-08-19 11:12:43,503 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637965043052800581  
+INFO  2022-08-19 11:12:43,505 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.3569ms 200 application/javascript; charset=utf-8
+INFO  2022-08-19 11:12:43,510 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:43,512 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:43,515 [33   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2022-08-19 11:12:43,517 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2022-08-19 11:12:43,521 [33   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2022-08-19 11:12:43,523 [33   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 5.2672ms
+INFO  2022-08-19 11:12:43,525 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:43,526 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.6453ms 200 application/x-javascript
+INFO  2022-08-19 11:12:43,541 [30   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2022-08-19 11:12:43,543 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 24.6669ms
+INFO  2022-08-19 11:12:43,545 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:43,547 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 47.986ms 200 application/x-javascript; charset=utf-8
+INFO  2022-08-19 11:12:43,556 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2022-08-19 11:12:43,563 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2022-08-19 11:12:43,565 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2022-08-19 11:12:43,567 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.9209ms 200 application/json
+INFO  2022-08-19 11:12:43,584 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/User/GetAll?keyword=&skipCount=0&maxResultCount=10 application/json 
+INFO  2022-08-19 11:12:43,590 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=hTen6OTTcg2XYrNzkk6zAg  
+INFO  2022-08-19 11:12:43,592 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Users.UserAppService.GetAllAsync (Acme.SimpleTaskApp.Application)'
+INFO  2022-08-19 11:12:43,595 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Acme.SimpleTaskApp.Users.Dto.UserDto]] GetAllAsync(Acme.SimpleTaskApp.Users.Dto.PagedUserResultRequestDto) on controller Acme.SimpleTaskApp.Users.UserAppService (Acme.SimpleTaskApp.Application).
+INFO  2022-08-19 11:12:43,599 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2022-08-19 11:12:43,610 [33   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"hTen6OTTcg2XYrNzkk6zAg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2022-08-19T11:12:43.6106845+07:00","Properties":{}}
+DEBUG 2022-08-19 11:12:43,611 [33   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: hTen6OTTcg2XYrNzkk6zAg
+INFO  2022-08-19 11:12:43,620 [19   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-08-19 11:12:43,622 [19   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Users.UserAppService.GetAllAsync (Acme.SimpleTaskApp.Application) in 25.4341ms
+INFO  2022-08-19 11:12:43,624 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Users.UserAppService.GetAllAsync (Acme.SimpleTaskApp.Application)'
+INFO  2022-08-19 11:12:43,626 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 42.2835ms 200 application/json; charset=utf-8
+INFO  2022-08-19 11:12:44,558 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2022-08-19 11:12:44,566 [19   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2022-08-19 11:12:44,568 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Controllers.UsersController.Index (Acme.SimpleTaskApp.Web.Mvc)'
+INFO  2022-08-19 11:12:44,571 [19   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Users", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller Acme.SimpleTaskApp.Web.Controllers.UsersController (Acme.SimpleTaskApp.Web.Mvc).
+INFO  2022-08-19 11:12:44,594 [33   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2022-08-19 11:12:44,637 [42   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 42.6247ms.
+INFO  2022-08-19 11:12:44,639 [42   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Controllers.UsersController.Index (Acme.SimpleTaskApp.Web.Mvc) in 66.2485ms
+INFO  2022-08-19 11:12:44,640 [42   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Controllers.UsersController.Index (Acme.SimpleTaskApp.Web.Mvc)'
+INFO  2022-08-19 11:12:44,644 [47   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 85.9887ms 200 text/html; charset=utf-8
+DEBUG 2022-08-19 11:12:44,647 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: hTen6OTTcg2XYrNzkk6zAg
+INFO  2022-08-19 11:12:44,649 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2022-08-19 11:12:44,651 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1060.7917ms 101 
+INFO  2022-08-19 11:12:44,660 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637965043052800581  
+INFO  2022-08-19 11:12:44,662 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/_framework/aspnetcore-browser-refresh.js  
+INFO  2022-08-19 11:12:44,664 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637965043052800581  
+INFO  2022-08-19 11:12:44,666 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.5715ms 200 application/javascript; charset=utf-8
+INFO  2022-08-19 11:12:44,671 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:44,673 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:44,675 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2022-08-19 11:12:44,677 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2022-08-19 11:12:44,679 [30   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2022-08-19 11:12:44,681 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 4.9746ms
+INFO  2022-08-19 11:12:44,683 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:44,685 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.9957ms 200 application/x-javascript
+INFO  2022-08-19 11:12:44,702 [13   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2022-08-19 11:12:44,705 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 25.8503ms
+INFO  2022-08-19 11:12:44,706 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:44,708 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.0257ms 200 application/x-javascript; charset=utf-8
+INFO  2022-08-19 11:12:44,720 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2022-08-19 11:12:44,725 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2022-08-19 11:12:44,728 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2022-08-19 11:12:44,729 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.5048ms 200 application/json
+INFO  2022-08-19 11:12:44,745 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/User/GetAll?keyword=&skipCount=0&maxResultCount=10 application/json 
+INFO  2022-08-19 11:12:44,747 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=XihZKwy4jFeTnAYkxOSSTg  
+INFO  2022-08-19 11:12:44,752 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Users.UserAppService.GetAllAsync (Acme.SimpleTaskApp.Application)'
+INFO  2022-08-19 11:12:44,754 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2022-08-19 11:12:44,757 [32   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Acme.SimpleTaskApp.Users.Dto.UserDto]] GetAllAsync(Acme.SimpleTaskApp.Users.Dto.PagedUserResultRequestDto) on controller Acme.SimpleTaskApp.Users.UserAppService (Acme.SimpleTaskApp.Application).
+DEBUG 2022-08-19 11:12:44,774 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"XihZKwy4jFeTnAYkxOSSTg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2022-08-19T11:12:44.7742648+07:00","Properties":{}}
+DEBUG 2022-08-19 11:12:44,774 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: XihZKwy4jFeTnAYkxOSSTg
+INFO  2022-08-19 11:12:44,777 [30   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-08-19 11:12:44,780 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Users.UserAppService.GetAllAsync (Acme.SimpleTaskApp.Application) in 20.2607ms
+INFO  2022-08-19 11:12:44,781 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Users.UserAppService.GetAllAsync (Acme.SimpleTaskApp.Application)'
+INFO  2022-08-19 11:12:44,783 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 38.7318ms 200 application/json; charset=utf-8
+INFO  2022-08-19 11:12:45,503 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2022-08-19 11:12:45,509 [32   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2022-08-19 11:12:45,510 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Controllers.UsersController.Index (Acme.SimpleTaskApp.Web.Mvc)'
+INFO  2022-08-19 11:12:45,513 [32   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Users", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller Acme.SimpleTaskApp.Web.Controllers.UsersController (Acme.SimpleTaskApp.Web.Mvc).
+INFO  2022-08-19 11:12:45,536 [33   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2022-08-19 11:12:45,579 [42   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 42.6876ms.
+INFO  2022-08-19 11:12:45,581 [42   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Controllers.UsersController.Index (Acme.SimpleTaskApp.Web.Mvc) in 65.9948ms
+INFO  2022-08-19 11:12:45,583 [42   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Controllers.UsersController.Index (Acme.SimpleTaskApp.Web.Mvc)'
+INFO  2022-08-19 11:12:45,587 [47   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 84.8174ms 200 text/html; charset=utf-8
+DEBUG 2022-08-19 11:12:45,591 [33   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: XihZKwy4jFeTnAYkxOSSTg
+INFO  2022-08-19 11:12:45,593 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2022-08-19 11:12:45,595 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 847.6782ms 101 
+INFO  2022-08-19 11:12:45,597 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637965043052800581  
+INFO  2022-08-19 11:12:45,599 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637965043052800581  
+INFO  2022-08-19 11:12:45,603 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:45,605 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:45,607 [18   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2022-08-19 11:12:45,609 [33   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2022-08-19 11:12:45,612 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/_framework/aspnetcore-browser-refresh.js  
+INFO  2022-08-19 11:12:45,614 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.0483ms 200 application/javascript; charset=utf-8
+INFO  2022-08-19 11:12:45,616 [18   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2022-08-19 11:12:45,618 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 8.9245ms
+INFO  2022-08-19 11:12:45,620 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:45,622 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.9462ms 200 application/x-javascript
+INFO  2022-08-19 11:12:45,637 [33   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2022-08-19 11:12:45,639 [33   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 28.1858ms
+INFO  2022-08-19 11:12:45,640 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2022-08-19 11:12:45,642 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2022-08-19 11:12:45,643 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 45.623ms 200 application/x-javascript; charset=utf-8
+INFO  2022-08-19 11:12:45,649 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2022-08-19 11:12:45,651 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2022-08-19 11:12:45,653 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.8317ms 200 application/json
+INFO  2022-08-19 11:12:45,667 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/User/GetAll?keyword=&skipCount=0&maxResultCount=10 application/json 
+INFO  2022-08-19 11:12:45,672 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Users.UserAppService.GetAllAsync (Acme.SimpleTaskApp.Application)'
+INFO  2022-08-19 11:12:45,674 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=cDcdYs2ohl4NoRdyNKUjYw  
+INFO  2022-08-19 11:12:45,676 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Acme.SimpleTaskApp.Users.Dto.UserDto]] GetAllAsync(Acme.SimpleTaskApp.Users.Dto.PagedUserResultRequestDto) on controller Acme.SimpleTaskApp.Users.UserAppService (Acme.SimpleTaskApp.Application).
+INFO  2022-08-19 11:12:45,680 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2022-08-19 11:12:45,694 [33   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"cDcdYs2ohl4NoRdyNKUjYw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2022-08-19T11:12:45.6947066+07:00","Properties":{}}
+DEBUG 2022-08-19 11:12:45,695 [33   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: cDcdYs2ohl4NoRdyNKUjYw
+INFO  2022-08-19 11:12:45,700 [17   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-08-19 11:12:45,704 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Users.UserAppService.GetAllAsync (Acme.SimpleTaskApp.Application) in 25.0711ms
+INFO  2022-08-19 11:12:45,705 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Users.UserAppService.GetAllAsync (Acme.SimpleTaskApp.Application)'
+INFO  2022-08-19 11:12:45,707 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.4726ms 200 application/json; charset=utf-8
