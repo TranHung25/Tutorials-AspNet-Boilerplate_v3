@@ -1,0 +1,95 @@
+﻿@*@using Acme.SimpleTaskApp.Controllers
+@using Acme.SimpleTaskApp.Web.Controllers
+@using Acme.SimpleTaskApp.Web.Startup
+@model IndexViewModel
+@{
+    ViewBag.Title = L("TaskList");
+    
+}
+@section scripts
+{
+    <environment names="Development">
+          <script src="~/view-resources/views/Tasks/create.js"></script>
+       <script src="~/view-resources/Views/Tasks/Index.js"></script>
+    </environment>
+
+    <environment names="Staging,Production">
+        <script src="~/view-resources/Views/Tasks/Index.min.js"></script>
+        <script src="~/view-resources/Views/Tasks/create.min.js"></script>
+    </environment>
+
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>@L("TaskList")</h1>
+            </div>
+            <div class="col-sm-6">
+                <a asp-action="Create"  data-toggle="modal" data-target="#UserCreateModal" class="btn bg-blue float-sm-right" >
+                    <i class="fa fa-plus-square"></i>
+                    @L("AddNew")
+                </a>
+            </div>
+             <span class="pull-right">
+        @Html.DropDownListFor(
+           model => model.SelectedTaskState,
+           Model.GetTasksStateSelectListItems(LocalizationManager),
+           new
+           {
+               @class = "form-control",
+               id = "TaskStateCombobox"
+           })
+    </span>
+        </div>
+    </div>
+</section>
+<div class="row">
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Tên Sản Phẩm
+            </th>
+            <th>
+                Giá Nhập
+            </th>
+            <th>
+                Giá Bán
+            </th>
+            <th>
+                Tồn Kho
+            </th>
+            <th>
+                Trạng Thái
+            </th>
+            <th>
+                Ảnh
+            </th>
+            <th>
+                Chú Thích
+            </th>
+            <th>
+                Tên Hãng Sản Xuất
+            </th>
+            <th>
+                Tên Loại Sản Phẩm
+            </th>
+           
+            <th>
+                Tổng Tiền Tồn Kho
+            </th>
+        </tr>
+    </thead>
+
+
+    <tbody id="tblDsSanPham">
+    </tbody>
+
+</table>
+</div>*@
+}
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
