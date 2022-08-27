@@ -30,11 +30,17 @@ namespace Acme.SimpleTaskApp.Tasks
             State = TaskState.Open;
         }
 
-        public Task(string title, string description = null)
+       
+        [ForeignKey(nameof(AssignedPersonId))]
+        public Person AssignedPerson { get; set; }
+        public Guid? AssignedPersonId { get; set; }
+
+        public Task(string title, string description = null, Guid? assignedPersonId = null)
             : this()
         {
             Title = title;
             Description = description;
+            AssignedPersonId = assignedPersonId;
         }
     }
 
@@ -43,4 +49,24 @@ namespace Acme.SimpleTaskApp.Tasks
         Open = 0,
         Completed = 1
     }
+    [Table("AppPersons")]
+    public class Person : AuditedEntity<Guid>
+    {
+        public const int MaxNameLength = 32;
+
+        [Required]
+        [StringLength(MaxNameLength)]
+        public string Name { get; set; }
+
+        public Person()
+        {
+
+        }
+
+        public Person(string name)
+        {
+            Name = name;
+        }
+    }
+
 }

@@ -53,6 +53,14 @@ namespace Acme.SimpleTaskApp.Web.Startup
                         url: "About",
                         icon: "fas fa-info-circle"
                     )
+                    ).AddItem(
+                new MenuItemDefinition(
+                    "TaskList",
+                    L("TaskList"),
+                    url: "Tasks",
+                    icon: "fa fa-tasks"
+                    )
+            
                 ).AddItem( // Menu items below is just for demonstration!
                     new MenuItemDefinition(
                         "MultiLevelMenu",
